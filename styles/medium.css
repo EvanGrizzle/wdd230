@@ -1,0 +1,11 @@
+@media (min-width: 32.5em) {
+    .banner-box {
+        background-color: blue;
+        border-radius: 50px 50px 50px 50px;
+    }
+    .footer-box {
+        background-color: blue;
+        border-radius: 50px 50px 50px 50px;
+    }
+
+}
