@@ -1,4 +1,5 @@
 let d = new Date();
 let year = d.getFullYear();
 
-document.querySelector("current-year").textContent = year;
+let yearElement = document.getElementById(".current-year")
+document.querySelector(yearElement).textContent = year;
