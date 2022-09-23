@@ -1,7 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-#content {
+#assign-portal-content {
     max-width: 960px;
     margin: 0 auto;
 }
 
+img {
+    max-width: 40%;
+}
+
+.banner-box {
+    display: grid;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 10px #000000;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.selfie {
+    grid-column: 1;
+    border: 1px solid #cccccc;
+    padding: 0px;
+    box-shadow: 10px 10px 10px #000000;
+}
+.footer-box {
+    display: grid;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 10px #000000;
+}
