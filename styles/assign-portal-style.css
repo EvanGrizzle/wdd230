@@ -46,7 +46,8 @@ footer {
     color: white;
     border-radius: 50px 50px 50px 50px;
     box-shadow: 10px 10px 10px #000000;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -56,4 +57,8 @@ footer span{
 
 .personal-info {
     padding-left: 30px;
+}
+
+#last-update {
+    color: yellow;
 }
