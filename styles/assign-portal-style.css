@@ -2,11 +2,12 @@
 
 #assign-portal-content {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 10em auto;
+    font-family: "Libre Baskerville", serif;
 }
 
 img {
-    max-width: 40%;
+    max-width: 123px;
 }
 
 .banner-box {
@@ -21,13 +22,18 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .selfie {
     grid-column: 1;
     border: 1px solid #cccccc;
     padding: 0px;
     box-shadow: 10px 10px 10px #000000;
 }
-.footer-box {
+footer {
     display: grid;
     background-color: green;
     border: 1px solid black;
