@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    color: white;
+}
+
+article {
+    width: 320px;
+    border: 1px solid black;
+	border-radius: 3px;
+	background-color: lightgray;
+}
+
+h3 {
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+}
